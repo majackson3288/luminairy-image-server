@@ -7,8 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // ── STABILITY AI KEY — paste yours here ──
-const STABILITY_KEY = 'sk-lYJ8Ob6eL0RWitjmSt1IkU5coLlyQHcGTuw3J3iqoF38HT27
-';
+const STABILITY_KEY = 'sk-82eau3JOOkkchGru08GWgoZu60xw75Svk4aZtMbCzOhRONmr';
 // ─────────────────────────────────────────
 
 app.get('/', (req, res) => {
